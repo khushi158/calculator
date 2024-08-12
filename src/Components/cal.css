@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Aclonica&family=DM+Sans:opsz@9..40&family=Gothic+A1&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins&family=Preahvihear&family=Roboto&family=Rubik&display=swap');
+
+.main{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#child{
+    flex-shrink: 0;
+    border-radius: 30px;
+background: #FFF;
+box-shadow: -30px 20px 100px 10px rgba(251, 24, 78, 0.47);
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 50px;
+justify-content: space-between;
+padding: 60px;
+}
+.main h1{
+    color: black;
+    font-size: x-large;
+    font-family: Montserrat;
+}
+.main input{
+    height: 50px;
+    width:250px;
+    border-radius: 10px;
+}
+.main button{
+ padding: 20px;
+ color: black;
+ font-size: x-large;
+ background-color:darkgray;
+ font-family: Montserrat;
+}
+button:hover{
+    cursor: pointer !important;
+    background-color: #FB184E;
+    transition-duration: 0.5s;
+}
